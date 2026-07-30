@@ -746,7 +746,7 @@ const controlSearchResults = async function() {
         const query = (0, _searchViewJsDefault.default).getQuery();
         if (!query) return;
         // Load serach results
-        await _modelJs.loadSearchResults('pizza');
+        await _modelJs.loadSearchResults(query);
         // Render Results
         (0, _resultsViewJsDefault.default).render(_modelJs.state.search.results);
     } catch (err) {
@@ -2771,9 +2771,7 @@ class RecipeView extends (0, _viewJsDefault.default) {
           </div>
 
           <div class="recipe__user-generated">
-            <svg>
-              <use href="${0, _iconsSvgDefault.default}#icon-user"></use>
-            </svg>
+           
           </div>
           <button class="btn--round">
             <svg class="">
@@ -2838,6 +2836,7 @@ var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 class View {
     _data;
     render(data) {
+        if (!data || Array.isArray(data) && data.length === 0) return this.renderError();
         this._data = data;
         const markup = this._generateMarkup();
         this._clear();
@@ -2895,7 +2894,7 @@ class SearchView {
     _parentEl = document.querySelector('.search');
     getQuery() {
         const query = this._parentEl.querySelector('.search__field').value;
-        this._clearInput();
+        // this._clearInput();
         return query;
     }
     _clearInput() {
