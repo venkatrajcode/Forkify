@@ -207,7 +207,7 @@
       });
     }
   }
-})({"5DuvQ":[function(require,module,exports,__globalThis) {
+})({"appxp":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -2918,7 +2918,7 @@ var _viewJs = require("./View.js");
 var _viewJsDefault = parcelHelpers.interopDefault(_viewJs);
 class resultsView extends (0, _viewJsDefault.default) {
     _parentElement = document.querySelector('.results');
-    _errorMessage = `No recipe fonund for your search! please try again :)`;
+    _errorMessage = `No recipe found for your search! please try again :)`;
     _message = '';
     _generateMarkup() {
         return this._data.map(this._generateMarkupPreview).join('');
@@ -2941,6 +2941,6 @@ class resultsView extends (0, _viewJsDefault.default) {
 }
 exports.default = new resultsView();
 
-},{"./View.js":"jSw21","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:../../img/icons.svg":"fd0vu"}]},["5DuvQ","7dWZ8"], "7dWZ8", "parcelRequire3a11", {}, "./", "/")
+},{"./View.js":"jSw21","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:../../img/icons.svg":"fd0vu"}]},["appxp","7dWZ8"], "7dWZ8", "parcelRequire3a11", {}, "./", "/")
 
 //# sourceMappingURL=starter.4a59a05f.js.map
