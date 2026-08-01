@@ -1,7 +1,7 @@
 import icons from 'url:../../img/icons.svg';
 import View from './View.js';
 
-class resultsView extends View {
+class ResultsView extends View {
   _parentElement = document.querySelector('.results');
   _errorMessage = `No recipe found for your search! please try again :)`;
   _message = '';
@@ -26,4 +26,4 @@ class resultsView extends View {
   }
 }
 
-export default new resultsView();
+export default new ResultsView();
