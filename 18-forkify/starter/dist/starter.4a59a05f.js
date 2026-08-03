@@ -750,7 +750,7 @@ const controlSearchResults = async function() {
         // Load serach results
         await _modelJs.loadSearchResults(query);
         // Render Results
-        (0, _resultsViewJsDefault.default).render(_modelJs.getSearchResultPage());
+        (0, _resultsViewJsDefault.default).render(_modelJs.getSearchResultPage(1));
         // Render initial pagination buttons
         (0, _paginationViewJsDefault.default).render(_modelJs.state.search);
     } catch (err) {
@@ -2966,10 +2966,50 @@ var _viewJsDefault = parcelHelpers.interopDefault(_viewJs);
 class PaginationView extends (0, _viewJsDefault.default) {
     _parentElement = document.querySelector('.pagination');
     _generateMarkup() {
-        console.log(this._data.results.length);
-        console.log(this.resultPerPage);
-        const pageNum = this._data.results.length / this.resultPerPage;
+        const currentPage = this._data.page;
+        const pageNum = Math.ceil(this._data.results.length / this._data.resultPerPage);
         console.log(pageNum);
+        // <button class="btn--inline pagination__btn--prev">
+        //         <svg class="search__icon">
+        //           <use href="src/img/icons.svg#icon-arrow-left"></use>
+        //         </svg>
+        //         <span>Page 1</span>
+        //       </button>
+        //       <button class="btn--inline pagination__btn--next">
+        //         <span>Page 3</span>
+        //         <svg class="search__icon">
+        //           <use href="src/img/icons.svg#icon-arrow-right"></use>
+        //         </svg>
+        //       </button>
+        // Page 1 and there are other pages.
+        if (currentPage === 1 && pageNum > 1) return `<button class="btn--inline pagination__btn--next">
+            <span>Page ${currentPage + 1}</span>
+            <svg class="search__icon">
+              <use href="${0, _iconsSvgDefault.default}#icon-arrow-right"></use>
+            </svg>
+          </button>`;
+        // Last page
+        if (currentPage === pageNum && pageNum > 1) return `<button class="btn--inline pagination__btn--prev">
+            <svg class="search__icon">
+              <use href="${0, _iconsSvgDefault.default}#icon-arrow-left"></use>
+            </svg>
+            <span>Page ${currentPage - 1}</span>
+          </button>`;
+        // Other page
+        if (currentPage < pageNum) return `<button class="btn--inline pagination__btn--prev">
+            <svg class="search__icon">
+              <use href="${0, _iconsSvgDefault.default}#icon-arrow-left"></use>
+            </svg>
+            <span>Page ${currentPage - 1}</span>
+          </button>
+          <button class="btn--inline pagination__btn--next">
+            <span>Page ${currentPage + 1}</span>
+            <svg class="search__icon">
+              <use href="${0, _iconsSvgDefault.default}#icon-arrow-right"></use>
+            </svg>
+          </button>`;
+        // Page 1 and there are no other pages
+        return 'only one page';
     }
 }
 exports.default = new PaginationView();

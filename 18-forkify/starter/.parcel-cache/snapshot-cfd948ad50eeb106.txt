@@ -1,9 +1,9 @@
 7567
-77/home/venkat/Projects/JavaScript/18-forkify/starter/dist/favicon.8b2f57bf.png1785565540126177792 0
-80/home/venkat/Projects/JavaScript/18-forkify/starter/dist/starter.4a59a05f.js.map1785565568196133213 0
+77/home/venkat/Projects/JavaScript/18-forkify/starter/dist/favicon.8b2f57bf.png1785733483429380127 0
+80/home/venkat/Projects/JavaScript/18-forkify/starter/dist/starter.4a59a05f.js.map1785733483464380086 0
 80/home/venkat/Projects/JavaScript/18-forkify/starter/dist/starter.3464ddca.js.map1783832034342543665 0
-77/home/venkat/Projects/JavaScript/18-forkify/starter/dist/starter.f7626f62.css1785565540160177738 0
-75/home/venkat/Projects/JavaScript/18-forkify/starter/dist/icons.0809ef97.svg1785565540165177730 0
+77/home/venkat/Projects/JavaScript/18-forkify/starter/dist/starter.f7626f62.css1785733483485380062 0
+75/home/venkat/Projects/JavaScript/18-forkify/starter/dist/icons.0809ef97.svg1785733483493380052 0
 80/home/venkat/Projects/JavaScript/18-forkify/starter/forkify-flowchart-part-1.png1781342822669352359 0
 62/home/venkat/Projects/JavaScript/18-forkify/starter/index.html1785382763841874574 0
 73/home/venkat/Projects/JavaScript/18-forkify/starter/src/sass/_recipe.scss1781342822678056292 0
@@ -11,7 +11,7 @@
 71/home/venkat/Projects/JavaScript/18-forkify/starter/src/sass/_base.scss1781342822677352792 0
 73/home/venkat/Projects/JavaScript/18-forkify/starter/src/sass/_upload.scss1781342822678056292 0
 72/home/venkat/Projects/JavaScript/18-forkify/starter/src/js/controller.js1785565232908460987 0
-82/home/venkat/Projects/JavaScript/18-forkify/starter/src/js/views/paginationView.js1785565567566111377 0
+82/home/venkat/Projects/JavaScript/18-forkify/starter/src/js/views/paginationView.js1785733483034267217 0
 79/home/venkat/Projects/JavaScript/18-forkify/starter/src/js/views/resultsView.js1785565212876534929 0
 58/home/venkat/Projects/JavaScript/18-forkify/starter/src/js1785561244076934658 1
 86/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/browserslist/index.js1785561313866799119 0
@@ -540,7 +540,7 @@
 96/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/caniuse-lite/data/regions/SV.js1783831288848977109 0
 100/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/caniuse-lite/data/regions/alt-oc.js1783831285614970857 0
 96/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/caniuse-lite/data/regions/LK.js1783831288251206400 0
-67/home/venkat/Projects/JavaScript/18-forkify/starter/src/js/model.js1785565627280039339 0
+67/home/venkat/Projects/JavaScript/18-forkify/starter/src/js/model.js1785733463544397607 0
 131/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/@msgpackr-extract/msgpackr-extract-linux-x64/node.abi115.musl.node1783831285942971491 0
 96/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/caniuse-lite/data/regions/KN.js1783831288198189838 0
 96/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/caniuse-lite/data/regions/PA.js1783831288516220250 0
@@ -727,7 +727,7 @@
 114/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mtest3.c1785561314101962309 0
 113/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/LICENSE1785561313929616856 0
 116/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mdb_load.c1785561314033028241 0
-67/home/venkat/Projects/JavaScript/18-forkify/starter/dist/index.html1785565540149177756 0
+67/home/venkat/Projects/JavaScript/18-forkify/starter/dist/index.html1785733483446380107 0
 118/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mtest_enc2.c1785561314077798709 0
 106/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/caniuse-lite/data/features/typedarrays.js1783831288975086288 0
 116/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mdb_copy.c1785561314017036197 0
@@ -2193,7 +2193,7 @@
 85/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/@lmdb/lmdb-linux-x641783831286377389019 1
 82/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/@parcel/codeframe1783831286440972454 1
 96/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/@parcel/watcher/src/Debounce.cc1783831285984971573 0
-76/home/venkat/Projects/JavaScript/18-forkify/starter/dist/starter.4a59a05f.js1785565568191133221 0
+76/home/venkat/Projects/JavaScript/18-forkify/starter/dist/starter.4a59a05f.js1785733483461380089 0
 105/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/@parcel/runtime-browser-hmr/package.json1783831287837975155 0
 100/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/core-js/features/array/find-last.js1783916206619385844 0
 119/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/@parcel/runtime-browser-hmr/src/loaders/hmr-runtime.js1783831287799975081 0
@@ -2677,7 +2677,7 @@
 100/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/@parcel/package-manager/src/Pnpm.js1783831288833419637 0
 86/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/picocolors/types.d.ts1783831285315970279 0
 90/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/core-js/es/reflect/has.js1783916206835493614 0
-81/home/venkat/Projects/JavaScript/18-forkify/starter/dist/starter.f7626f62.css.map1785565540165177730 0
+81/home/venkat/Projects/JavaScript/18-forkify/starter/dist/starter.f7626f62.css.map1785733483486380060 0
 105/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/core-js/modules/es.json.to-string-tag.js1783916206373281352 0
 103/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/core-js/es/typed-array/uint16-array.js1783916207691955263 0
 114/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/core-js/features/string/virtual/to-well-formed.js1783916207646698273 0
@@ -2712,7 +2712,7 @@
 119/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/@parcel/runtime-browser-hmr/src/loaders/.eslintrc.json1783831287833975147 0
 96/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/@parcel/transformer-postcss/lib1783831287253974026 1
 105/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/core-js/features/string/virtual/small.js1783916207468954669 0
-56/home/venkat/Projects/JavaScript/18-forkify/starter/dist1785565568196133213 1
+56/home/venkat/Projects/JavaScript/18-forkify/starter/dist1785733483493380052 1
 106/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/@parcel/optimizer-css/src/CSSOptimizer.js1783831288417976276 0
 100/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/caniuse-lite/data/regions/alt-sa.js1783831285621397477 0
 104/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/core-js/stable/data-view/get-float16.js1783916206750824936 0
@@ -4934,7 +4934,7 @@
 96/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/core-js/features/weak-set/of.js1783916207296954211 0
 116/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/core-js/modules/es.object.get-own-property-names.js1783916206392810678 0
 117/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/@parcel/runtime-js/lib/helpers/worker/wasm-loader.js1783831287927975329 0
-74/home/venkat/Projects/JavaScript/18-forkify/starter/dist/logo.726d37a8.png1785565540135177778 0
+74/home/venkat/Projects/JavaScript/18-forkify/starter/dist/logo.726d37a8.png1785733483429380127 0
 98/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/core-js/modules/es.array.every.js1783916206343951672 0
 100/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/core-js/actual/typed-array/slice.js1783916207455620653 0
 100/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/@parcel/runtime-js/lib/JSRuntime.js1783831287870975219 0
@@ -7555,7 +7555,7 @@
 99/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/core-js/stable/object/to-string.js1783916207643264134 0
 98/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/core-js/features/instance/find.js1783916206631594787 0
 99/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/core-js/stable/object/is-sealed.js1783916207132623562 0
-75/home/venkat/Projects/JavaScript/18-forkify/starter/dist/icons.21bad73c.svg1785565540165177730 0
+75/home/venkat/Projects/JavaScript/18-forkify/starter/dist/icons.21bad73c.svg1785733483493380052 0
 114/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/core-js/stable/object/get-own-property-symbols.js1783916206789952860 0
 106/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/core-js/stable/object/get-prototype-of.js1783916206798471354 0
 99/home/venkat/Projects/JavaScript/18-forkify/starter/node_modules/core-js/stable/object/is-frozen.js1783916207121467260 0
