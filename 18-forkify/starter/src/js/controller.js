@@ -41,7 +41,7 @@ const controlSearchResults = async function () {
     await model.loadSearchResults(query);
 
     // Render Results
-    resultsView.render(model.getSearchResultPage(1));
+    resultsView.render(model.getSearchResultPage());
 
     // Render initial pagination buttons
     paginationView.render(model.state.search);
@@ -50,10 +50,17 @@ const controlSearchResults = async function () {
   }
 };
 
-// controlSearchResults();
+const controlPagination = function (goToPage) {
+  // Render New Results
+  resultsView.render(model.getSearchResultPage(goToPage));
+
+  // Render new pagination buttons
+  paginationView.render(model.state.search);
+};
 
 const init = function () {
   recipeView.addHandlerRender(controlRecipes);
   searchView.addHandlerSearch(controlSearchResults);
+  paginationView.addHandlerClick(controlPagination);
 };
 init();

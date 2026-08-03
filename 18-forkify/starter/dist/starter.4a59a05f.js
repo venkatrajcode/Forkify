@@ -207,7 +207,7 @@
       });
     }
   }
-})({"5DuvQ":[function(require,module,exports,__globalThis) {
+})({"appxp":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -750,17 +750,23 @@ const controlSearchResults = async function() {
         // Load serach results
         await _modelJs.loadSearchResults(query);
         // Render Results
-        (0, _resultsViewJsDefault.default).render(_modelJs.getSearchResultPage(1));
+        (0, _resultsViewJsDefault.default).render(_modelJs.getSearchResultPage());
         // Render initial pagination buttons
         (0, _paginationViewJsDefault.default).render(_modelJs.state.search);
     } catch (err) {
         console.log(err);
     }
 };
-// controlSearchResults();
+const controlPagination = function(goToPage) {
+    // Render New Results
+    (0, _resultsViewJsDefault.default).render(_modelJs.getSearchResultPage(goToPage));
+    // Render new pagination buttons
+    (0, _paginationViewJsDefault.default).render(_modelJs.state.search);
+};
 const init = function() {
     (0, _recipeViewJsDefault.default).addHandlerRender(controlRecipes);
     (0, _searchViewJsDefault.default).addHandlerSearch(controlSearchResults);
+    (0, _paginationViewJsDefault.default).addHandlerClick(controlPagination);
 };
 init();
 
@@ -2963,57 +2969,53 @@ var _iconsSvg = require("url:../../img/icons.svg");
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 var _viewJs = require("./View.js");
 var _viewJsDefault = parcelHelpers.interopDefault(_viewJs);
+// import hasInstance from 'core-js/fn/function/has-instance';
 class PaginationView extends (0, _viewJsDefault.default) {
     _parentElement = document.querySelector('.pagination');
+    addHandlerClick(handler) {
+        this._parentElement.addEventListener('click', function(e) {
+            const btn = e.target.closest('.btn--inline');
+            if (!btn) return;
+            const goToPage = +btn.dataset.goto;
+            handler(goToPage);
+        });
+    }
     _generateMarkup() {
         const currentPage = this._data.page;
         const pageNum = Math.ceil(this._data.results.length / this._data.resultPerPage);
-        console.log(pageNum);
-        // <button class="btn--inline pagination__btn--prev">
-        //         <svg class="search__icon">
-        //           <use href="src/img/icons.svg#icon-arrow-left"></use>
-        //         </svg>
-        //         <span>Page 1</span>
-        //       </button>
-        //       <button class="btn--inline pagination__btn--next">
-        //         <span>Page 3</span>
-        //         <svg class="search__icon">
-        //           <use href="src/img/icons.svg#icon-arrow-right"></use>
-        //         </svg>
-        //       </button>
         // Page 1 and there are other pages.
-        if (currentPage === 1 && pageNum > 1) return `<button class="btn--inline pagination__btn--next">
+        if (currentPage === 1 && pageNum > 1) return `<button data-goto="${currentPage + 1}" class="btn--inline pagination__btn--next">
             <span>Page ${currentPage + 1}</span>
             <svg class="search__icon">
               <use href="${0, _iconsSvgDefault.default}#icon-arrow-right"></use>
             </svg>
           </button>`;
         // Last page
-        if (currentPage === pageNum && pageNum > 1) return `<button class="btn--inline pagination__btn--prev">
+        if (currentPage === pageNum && pageNum > 1) return `<button data-goto="${currentPage - 1}" class="btn--inline pagination__btn--prev">
             <svg class="search__icon">
               <use href="${0, _iconsSvgDefault.default}#icon-arrow-left"></use>
             </svg>
             <span>Page ${currentPage - 1}</span>
           </button>`;
         // Other page
-        if (currentPage < pageNum) return `<button class="btn--inline pagination__btn--prev">
+        if (currentPage < pageNum) return `<button data-goto="${currentPage - 1}" class="btn--inline pagination__btn--prev">
             <svg class="search__icon">
               <use href="${0, _iconsSvgDefault.default}#icon-arrow-left"></use>
             </svg>
             <span>Page ${currentPage - 1}</span>
           </button>
-          <button class="btn--inline pagination__btn--next">
+          <button data-goto="${currentPage + 1}" class="btn--inline pagination__btn--next">
             <span>Page ${currentPage + 1}</span>
             <svg class="search__icon">
               <use href="${0, _iconsSvgDefault.default}#icon-arrow-right"></use>
             </svg>
           </button>`;
         // Page 1 and there are no other pages
-        return 'only one page';
+        return '';
     }
 }
 exports.default = new PaginationView();
 
-},{"url:../../img/icons.svg":"fd0vu","./View.js":"jSw21","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["5DuvQ","7dWZ8"], "7dWZ8", "parcelRequire3a11", {}, "./", "/")
+},{"url:../../img/icons.svg":"fd0vu","./View.js":"jSw21","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["appxp","7dWZ8"], "7dWZ8", "parcelRequire3a11", {}, "./", "/")
 
 //# sourceMappingURL=starter.4a59a05f.js.map
