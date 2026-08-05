@@ -24,6 +24,9 @@ const controlRecipes = async function () {
 
     // 2) Rendering the recipe
     recipeView.render(model.state.recipe);
+
+    // TEST
+    controlServings();
   } catch (err) {
     recipeView.renderError();
   }
@@ -56,6 +59,13 @@ const controlPagination = function (goToPage) {
 
   // Render new pagination buttons
   paginationView.render(model.state.search);
+};
+
+const controlServings = function () {
+  // Update the recipe servings (in the state)
+  model.updateServings(4^Cvenkat@gokul:~/Projects/JavaScript/18-forkify/starter$ git status);
+  // Update the recipe view
+  recipeView.render(model.state.recipe);
 };
 
 const init = function () {
