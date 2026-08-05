@@ -207,7 +207,7 @@
       });
     }
   }
-})({"5DuvQ":[function(require,module,exports,__globalThis) {
+})({"appxp":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -737,8 +737,6 @@ const controlRecipes = async function() {
         await _modelJs.loadRecipe(id);
         // 2) Rendering the recipe
         (0, _recipeViewJsDefault.default).render(_modelJs.state.recipe);
-        // TEST
-        controlServings();
     } catch (err) {
         (0, _recipeViewJsDefault.default).renderError();
     }
@@ -765,14 +763,15 @@ const controlPagination = function(goToPage) {
     // Render new pagination buttons
     (0, _paginationViewJsDefault.default).render(_modelJs.state.search);
 };
-const controlServings = function() {
+const controlServings = function(newServings) {
     // Update the recipe servings (in the state)
-    _modelJs.updateServings(4);
+    _modelJs.updateServings(newServings);
     // Update the recipe view
     (0, _recipeViewJsDefault.default).render(_modelJs.state.recipe);
 };
 const init = function() {
     (0, _recipeViewJsDefault.default).addHandlerRender(controlRecipes);
+    (0, _recipeViewJsDefault.default).addHandlerUpdateServings(controlServings);
     (0, _searchViewJsDefault.default).addHandlerSearch(controlSearchResults);
     (0, _paginationViewJsDefault.default).addHandlerClick(controlPagination);
 };
@@ -2769,6 +2768,14 @@ class RecipeView extends (0, _viewJsDefault.default) {
             'load'
         ].forEach((e)=>window.addEventListener(e, handler));
     }
+    addHandlerUpdateServings(handler) {
+        this._parentElement.addEventListener('click', function(e) {
+            const btn = e.target.closest('.btn--update-servings');
+            if (!btn) return;
+            const { updateTo } = btn.dataset;
+            if (+updateTo > 0) handler(+updateTo);
+        });
+    }
     _generateMarkup() {
         return `
     <figure class="recipe__fig">
@@ -2794,12 +2801,12 @@ class RecipeView extends (0, _viewJsDefault.default) {
             <span class="recipe__info-text">servings</span>
 
             <div class="recipe__info-buttons">
-              <button class="btn--tiny btn--increase-servings">
+              <button class="btn--tiny btn--update-servings" data-update-to ="${this._data.servings - 1}">
                 <svg>
                   <use href="${0, _iconsSvgDefault.default}#icon-minus-circle"></use>
                 </svg>
               </button>
-              <button class="btn--tiny btn--increase-servings">
+              <button class="btn--tiny btn--update-servings" data-update-to ="${this._data.servings + 1}">
                 <svg>
                   <use href="${0, _iconsSvgDefault.default}#icon-plus-circle"></use>
                 </svg>
@@ -3032,6 +3039,6 @@ class PaginationView extends (0, _viewJsDefault.default) {
 }
 exports.default = new PaginationView();
 
-},{"url:../../img/icons.svg":"fd0vu","./View.js":"jSw21","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["5DuvQ","7dWZ8"], "7dWZ8", "parcelRequire3a11", {}, "./", "/")
+},{"url:../../img/icons.svg":"fd0vu","./View.js":"jSw21","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["appxp","7dWZ8"], "7dWZ8", "parcelRequire3a11", {}, "./", "/")
 
 //# sourceMappingURL=starter.4a59a05f.js.map
