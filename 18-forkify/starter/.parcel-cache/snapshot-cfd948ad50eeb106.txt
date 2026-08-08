@@ -7,7 +7,7 @@
 106C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\stable\url\can-parse.js134297237931990250 0
 134C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_dump.1134297239607847989 0
 106C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\stable\reflect\index.js134297237930612552 0
-82C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\src\js\controller.js134304146283270156 0
+82C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\src\js\controller.js134306745366955524 0
 109C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\sass\types\logger\source_span.d.ts134297239608822844 0
 110C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\lightningcss-linux-x64-musl\LICENSE134302366908665490 0
 65C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\src134297237940035924 1
@@ -32,7 +32,7 @@
 125C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\intro.doc134297239609751991 0
 106C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\full\array\find-last.js134297237915518566 0
 125C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\caniuse-lite\data\features\background-clip-text.js134297237894356160 0
-66C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\dist134304148684621498 1
+66C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\dist134306746253298525 1
 104C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\stable\reflect\has.js134297237930612552 0
 95C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\web\index.js134297237932192847 0
 109C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\modules\es.array.concat.js134297237922848758 0
@@ -153,7 +153,7 @@
 130C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\@parcel\watcher\node_modules\detect-libc\lib\process.js134297237887722222 0
 83C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\src\sass\_header.scss134297237940060747 0
 92C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\lmdb\util\when.js134297239610312123 0
-82C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\src\js\views\View.js134298931824546414 0
+82C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\src\js\views\View.js134305734117697725 0
 113C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\type-fest\source\conditional-pick.d.ts134297237939454244 0
 112C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\features\instance\for-each.js134297237911749069 0
 119C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\modules\es.number.is-safe-integer.js134297237923756771 0
@@ -207,7 +207,7 @@
 112C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\full\string\is-well-formed.js134297237918894531 0
 106C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\caniuse-lite\data\regions\AS.js134297237899196778 0
 107C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\postcss-value-parser\lib\unit.js134297237937629961 0
-77C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\src\js\model.js134304144376683102 0
+77C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\src\js\model.js134306746255223330 0
 115C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\modules\esnext.set.delete-all.js134297237926544551 0
 74C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\src\js\views134302366909613238 1
 122C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\modules\es.typed-array.float64-array.js134297237925192858 0
@@ -237,7 +237,7 @@
 110C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\features\iterator\filter.js134297237912116209 0
 118C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\modules\esnext.iterator.for-each.js134297237925975749 0
 109C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\@parcel\core\lib\ReporterRunner.js134297237876726569 0
-88C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\src\js\views\recipeView.js134304148683473065 0
+88C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\src\js\views\recipeView.js134306719047751483 0
 114C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\actual\typed-array\to-string.js134297237905740278 0
 118C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\modules\es.number.to-exponential.js134297237923809995 0
 89C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\weak-lru-cache134297237939901371 1
@@ -245,7 +245,7 @@
 113C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\modules\es.string.match-all.js134297237924608505 0
 121C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\lmdb\dependencies\lz4\lib\dll\example\Makefile134297239607736961 0
 115C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\lmdb\dependencies\lmdb-data-v1\libraries134297239606238354 1
-89C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\src\js\views\resultsView.js134302366909613238 0
+89C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\src\js\views\resultsView.js134305729544611937 0
 111C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\stable\array\virtual\some.js134297237928763586 0
 143C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\@parcel\rust-linux-x64-musl\parcel-node-bindings.linux-x64-musl.node134302366905912112 0
 102C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\es\iterator\find.js134297237907729428 0
@@ -1801,7 +1801,7 @@
 102C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\stable\url\parse.js134297237932001196 0
 112C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\internals\define-built-ins.js134297237920728233 0
 93C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\msgpackr\unpack.js134297237936417503 0
-85C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\dist\icons.21bad73c.svg134304148683933533 0
+85C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\dist\icons.21bad73c.svg134306743421810826 0
 123C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\caniuse-lite\data\features\loading-lazy-media.js134297237897080037 0
 112C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\caniuse-lite\data\features\imports.js134297237896582541 0
 114C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\stable\string\is-well-formed.js134297237930950882 0
@@ -4081,7 +4081,7 @@
 112C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\internals\reflect-metadata.js134297237922076732 0
 127C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\caniuse-lite\data\features\contentsecuritypolicy2.js134297237894651260 0
 120C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\full\array\virtual\find-last-index.js134297237915884951 0
-85C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\dist\icons.0809ef97.svg134304148683933533 0
+85C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\dist\icons.0809ef97.svg134306743422403491 0
 116C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\internals\regexp-exec-abstract.js134297237922076732 0
 107C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\internals\regexp-exec.js134297237922089415 0
 135C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\@swc\helpers\_\_object_without_properties_loose\package.json134297237891381056 0
@@ -4853,7 +4853,7 @@
 128C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\@swc\helpers\_\_class_private_field_init\package.json134297237890967100 0
 108C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\features\weak-set\from.js134297237915355659 0
 113C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\es\reflect\get-prototype-of.js134297237908626808 0
-91C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\dist\starter.f7626f62.css.map134304148684277109 0
+91C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\dist\starter.f7626f62.css.map134306743422403491 0
 115C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\caniuse-lite\data\features\word-break.js134297237898982489 0
 118C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\caniuse-lite\data\features\passwordrules.js134297237897759043 0
 114C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\core-js\features\weak-map\delete-all.js134297237915271506 0
@@ -7373,7 +7373,7 @@
 121C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\@parcel\package-manager\src\JSONParseStream.js134297237880213214 0
 126C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\@parcel\package-manager\src\MockPackageInstaller.js134297237880223202 0
 124C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\@parcel\package-manager\src\NodePackageManager.js134297237880223202 0
-86C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\dist\starter.4a59a05f.js134304148684570100 0
+86C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\dist\starter.4a59a05f.js134306746253258351 0
 110C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\@parcel\package-manager\src\Pnpm.js134297237880254872 0
 124C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\@parcel\package-manager\src\promiseFromProcess.js134297237880287462 0
 111C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\@parcel\package-manager\src\utils.js134297237880299502 0
@@ -7597,10 +7597,10 @@
 90C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\.bin\parcel.ps1134297239614462855 0
 88C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\.bin\sass.cmd134297239614462855 0
 86C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\node_modules\.bin\semver134302366902794329 0
-87C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\dist\favicon.8b2f57bf.png134304148684087653 0
-77C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\dist\index.html134304148683910303 0
-84C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\dist\logo.726d37a8.png134304148684391783 0
+87C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\dist\favicon.8b2f57bf.png134306743422157490 0
+77C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\dist\index.html134306743422383463 0
+84C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\dist\logo.726d37a8.png134306743421489115 0
 90C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\dist\starter.3464ddca.js.map134297237874519652 0
-90C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\dist\starter.4a59a05f.js.map134304148684601462 0
+90C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\dist\starter.4a59a05f.js.map134306746253288496 0
 86C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\dist\starter.62406edb.js134297237875038621 0
-87C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\dist\starter.f7626f62.css134304148684235180 0
+87C:\Users\scl\Desktop\papun\Forkify\Forkify\18-forkify\starter\dist\starter.f7626f62.css134306743422363378 0
